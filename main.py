@@ -11,7 +11,7 @@ st.markdown("Ask me about any company, and I’ll show you Turnover, Employee Ra
 
 @st.cache_data
 def load_data():
-    return pd.read_excel("sample_data.xlsx")
+    return pd.read_excel("company_tei.xlsx")
 
 df = load_data()
 
