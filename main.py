@@ -11,7 +11,7 @@ st.markdown("Ask me about any company, and I’ll show you Turnover, Employee Ra
 
 @st.cache_data
 def load_data():
-    return pd.read_excel("updated updated unique to check for bot.xlsx")
+    return pd.read_excel("Updated_updated_for_bot.xlsx.xlsx")
 
 df = load_data()
 
